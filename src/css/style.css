@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #F7F7F7;
+    max-width: 90rem;
+    display: grid;
+    grid-template-areas: "video-main advertising"
+                         "video-main videos-recommended";
+    grid-column-gap: 1.7rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 27rem;
+    grid-template-rows: 5.6rem 1fr;
+    gap: 2rem;
+    padding: 3.5rem;
+}
+
+.video-main{
+    grid-area: video-main;
+}
+
+.video-main img{
+    width: 100%;
+}
+
+.video-main .title-main{
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+}
+
+.video-main .views{
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+}
+
+.video-main .description{
+    font-size: 1.6rem;
+    padding-top: 0.9rem;
+}
+
+.advertising{
+    grid-area: advertising;
+}
+
+.videos-recommended{
+    grid-area: videos-recommended;
+}
+
+.videos-recommended .videos{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.videos-recommended .videos h2{
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.videos-recommended .videos p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+
+

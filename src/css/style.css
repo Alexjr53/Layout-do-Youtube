@@ -23,49 +23,49 @@ main{
     padding: 3.5rem;
 }
 
-.video-main{
+.container .video-main{
     grid-area: video-main;
 }
 
-.video-main img{
+.container .video-main img{
     width: 100%;
 }
 
-.video-main .title-main{
+.container .video-main .title-main{
     font-size: 1.8rem;
     padding-top: 1.2rem;
 }
 
-.video-main .views{
+.container .video-main .views{
     font-size: 1.4rem;
     padding-top: 0.7rem;
 }
 
-.video-main .description{
+.container .video-main .description{
     font-size: 1.6rem;
     padding-top: 0.9rem;
 }
 
-.advertising{
+.container .advertising{
     grid-area: advertising;
 }
 
-.videos-recommended{
+.container .videos-recommended{
     grid-area: videos-recommended;
 }
 
-.videos-recommended .videos{
+.container .videos-recommended .videos{
     display: flex;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
 }
 
-.videos-recommended .videos h2{
+.container .videos-recommended .videos h2{
     font-size: 1.4rem;
     margin-bottom: 0.7rem;
 }
 
-.videos-recommended .videos p {
+.container .videos-recommended .videos p {
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
